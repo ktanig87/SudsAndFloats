@@ -1,8 +1,28 @@
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
+
+  div{
+    font-family: 'Libre Baskerville', serif;
   }
+  h1{
+    font-family: 'Libre Baskerville', serif;
+  }
+
+.icon-white{
+  color: white;
+}
+
+.Floats{
+  background-color: rgba(9,132,120,255);
+}
+
+.Suds{
+  background-color:rgba(234,35,41,255);
+}
+
+.nav{
+  background-color: rgba(9,132,120,255);
+  
+}
+
 .featurette-divider {
     margin: 5rem ; /* Space out the Bootstrap <hr> more */
   }
