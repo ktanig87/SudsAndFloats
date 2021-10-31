@@ -67,9 +67,9 @@
           </div>
 
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light" action= "https://formspree.io/f/xqkwvzvp">
+            <form class="p-4 p-md-5 border rounded-3 bg-light" action= "https://formspree.io/f/xqkwvzvp" method="POST">
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" required>
+                <input type="text" class="form-control" name="name" id="floatingInput" required>
                 <label for="floatingInput">Name*</label>
               </div>
               <div class="form-floating mb-3">
@@ -81,7 +81,7 @@
                 <label for="floatingPassword">Subject</label>
               </div>
               <div class="form-floating mb-3">
-                  <textarea class="form-control" id="floatingInput" cols="30" rows="20"></textarea>
+                  <textarea class="form-control" id="floatingInput" name="Message" cols="30" rows="20"></textarea>
                   <label for="floatingInput">Message</label>
               </div>
               <hr class="my-4">
