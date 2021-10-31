@@ -49,7 +49,11 @@
       margin-top: 7rem;
     }
   }
-
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    
+}
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
